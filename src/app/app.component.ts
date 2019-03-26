@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { GeralService } from './geral.service';
+import { GeneralService } from './general.service';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +16,7 @@ export class AppComponent {
 	showAuth: boolean = false;
 	showGuest: boolean = false;
 
-	constructor(private geralService: GeralService) {}
+	constructor(private geralService: GeneralService) {}
 
 	ngOnInit() {
 		this.showAdmin = false;

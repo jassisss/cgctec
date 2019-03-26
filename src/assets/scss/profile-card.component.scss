@@ -1,3 +1,4 @@
+//noinspection CssInvalidPropertyValue
 @mixin dashboard-profile($theme) {
 
     .profile-card-holder{
@@ -21,7 +22,8 @@
         .Follow{
             width: 70%;
         }
-        & .banner {
+      //noinspection CssInvalidPropertyValue
+      & .banner {
             background-size: screen;
             min-height: 56px;
             background-repeat: no-repeat;
